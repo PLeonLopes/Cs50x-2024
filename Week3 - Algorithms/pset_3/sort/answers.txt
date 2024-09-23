@@ -1,0 +1,39 @@
+-------------------------------------------------------------------
+sort1 uses: Bubble Sort
+
+How do you know?:
+As explained in the lecture and Short-Videos, the Bubble Sort algorithm is O(N^2). When compared to the Selection Sort algorithm, we can't really differentiate it much from Selection Sort.
+However, as visually demonstrated at the end of Lecture, Bubble Sort took much longer than Selection Sort, which we can see in these following time tests:
+(using "time" in bash. ex: time ./sort1 random5000.txt)
+real    0m0,060s
+user    0m0,032s
+sys     0m0,028s
+-------------------------------------------------------------------
+sort2 uses: Merge Sort
+
+How do you know?:
+This was the easiest algorithm to identify, due to one main reason: When used on the random list of numbers, the Merge Sort algorithm
+show to be the most effective one, because it's O(n log n). We can see the time results below:
+(using "time" in bash. ex: time ./sort2 random5000.txt)
+real    0m0,036s
+user    0m0,000s
+sys     0m0,029s
+-------------------------------------------------------------------
+sort3 uses: Selection Sort
+
+How do you know?:
+To find out wich algorithm is "Sort3", i had to directly evaluate the difference between Selection Sort(sort3) and Bubble Sort (sort1),
+using a list of SORTED numbers, due to the high capabilty and quickness of the Bubble Sort algorithm is ordered numbers lists.
+In this case, the Selection Sort Algorithm would be O(n2), while the Bubble Sort would be O(n).
+(using "time" in bash. ex: time ./sort3 random50000.txt & time ./sort1 sorted50000.txt)
+
+SELECTION SORT TIME DATA:
+real    0m3,129s
+user    0m1,698s
+sys     0m0,241s
+
+BUBBLE SORT TIME DATA:
+real    0m1,439s
+user    0m0,027s
+sys     0m0,231s
+-------------------------------------------------------------------
