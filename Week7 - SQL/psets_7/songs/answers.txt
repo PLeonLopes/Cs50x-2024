@@ -1,0 +1,59 @@
+Q1:
+
+USING THE OFFICIAL DOCUMENTATION [https://developer.spotify.com/documentation/web-api/reference/get-audio-features], WE CAN MAKE SOME ASSUMPTIONS:
+
++--------------------------------------------------------------------------------------------------------------------------+
+| | ENERGY |                                                                                                               |
+|                                                                                                                          |
+| According to the Spotify Developers OFFICIAL DOCUMENTATION:                                                              |                                                                                                                         |
+|                                                                                                                          |
+| "Energy is a measure from 0.0 to 1.0 and represents a perceptual measure of intensity and                                |
+| activity. Typically, energetic tracks feel fast, loud, and noisy. For example, death metal has high                      |
+| energy, while a Bach prelude scores low on the scale. Perceptual features contributing to this                           |
+| attribute include dynamic range, perceived loudness, timbre, onset rate, and general entropy."                           |
+|                                                                                                                          |
+| So, in this case, using "SELECT AVG(energy) FROM songs;", we can discover that the average valence value of the user is: |
+|                                                                                                                          |
+| | AVG(energy) -> 0.65906 |                                                                                               |
+|                                                                                                                          |
+| This number states that the user listens to more energetic music.                                                        |
++--------------------------------------------------------------------------------------------------------------------------+
+
++--------------------------------------------------------------------------------------------------------+
+| | VALENCE |                                                                                            |
+|                                                                                                        |
+| According to the Spotify Developers OFFICIAL DOCUMENTATION:                                            |
+|                                                                                                        |
+| "A measure from 0.0 to 1.0 describing the musical positiveness                                         |
+| conveyed by a track. Tracks with high valence sound more positive                                      |
+| (e.g. happy, cheerful, euphoric), while tracks with low valence sound                                  |
+| more negative (e.g. sad, depressed, angry)"                                                            |
+|                                                                                                        |
+| So, in this case, using "SELECT AVG(valence) FROM songs;", we can discover his average valence value:  |
+|                                                                                                        |
+| | AVG(valence) -> 0.484443 |                                                                           |
+|                                                                                                        |
+| This number states that the user listens to both happy and sad music.                                  |
++--------------------------------------------------------------------------------------------------------+
+
++----------------------------------------------------------------------------------------------------------------+
+| | DANCEABILITY |                                                                                               |
+|                                                                                                                |
+| According to the Spotify Developers OFFICIAL DOCUMENTATION:                                                    |
+| "Danceability describes how suitable a track is for dancing based on a combination of musical                  |
+| elements including tempo, rhythm stability, beat strength, and overall regularity. A value of 0.0              |
+| is least danceable and 1.0 is most danceable."                                                                 |
+|                                                                                                                |
+| | AVG(danceability) -> 0.71646 |                                                                               |
+|                                                                                                                |
+| As we can see, the user generally prefers to listen to more fast-paced music, with fast rythm and strong beats |
++----------------------------------------------------------------------------------------------------------------+
+
+| CONCLUSION |
+With the Energy, Valence and Danceability data, we can conclude that the user is more likely to be included in
+the BLUE MOOD GROUP, considering that this person seek out music to feel their feelings out loud.
+
+Q2:
+
+This dataset only contais the user's top 100 songs, so we might not be able to infer with 100% accuracy.
+So, if we had a bigger dataset, with more informations, we could be more precise.
