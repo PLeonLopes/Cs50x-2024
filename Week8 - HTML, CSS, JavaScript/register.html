@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <title>Register</title>
+    </head>
+    <body>
+        <form>
+            <input autocomplete="off" autofocus name="email" pattern=".+@.+\.edu" placeholder="Email" type="email"> <!-- Accepts -> example@example.edu-->
+            <button>REGISTER</button>
+        </form>
+    </body>
+</html>
+<!---
+REGEX CHEATSHEET:
+
+. -> any single character (except line terminators)
+
+* -> zero or more times
+
++ -> one or more times
+
+? -> 0 or 1 time
+
+{n} -> n occurrences
+
+{n, m} -> at least n occurrences, at most m occurrences
+
+/ -> make it literal (ex: \. -> literal period)
+
+CHARACTERS CLASSES:
+[0123456789] -> any one of the enclosed characters
+
+[0-9] -> any on of the range of characters
+
+\d -> any digit
+
+\D -> any character that is not a digit
+
+
+USE validator.w3.org :D
+-->

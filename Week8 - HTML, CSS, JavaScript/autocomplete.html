@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>autocomplete</title>
+    </head>
+    <body>
+        <input autocomplete="off" autofocus placeholder="Query" type="text">
+        <ul></ul>
+        <script src="large.js"></script>        <!-- FOR THE LARGE.JS FILE, CHECK CS50 WEEK8 FILES -->
+        <script>
+            let input = document.querySelector('input');
+            input.addEventListener('keyup', function(event) {
+                let html = '';
+                if (input.value) {
+                    for (word of WORDS) {
+                        if (word.startsWith(input.value)) {
+                            html += `<li>${word}</li>`;
+                        }
+                    }
+                }
+                document.querySelector('ul').innerHTML = html;
+            });
+        </script>
+    </body>
+</html>

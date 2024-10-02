@@ -1,0 +1,47 @@
+| HTML TAGS |
+. <nav>
+. <div>
+. <button>
+. <span>
+. <ul>
+. <ol>
+. <li>
+. <a>
+. <main>
+. <h1-h5>
+. <p>
+. <img>
+. <br>
+. <hr>
+. <center>
+. <footer>
+
+| CSS |
+Selectors: tags, classes, ID's and Rules(@media) were used
+
+Properties:
+. text-decoration
+. color
+. background-color
+. text-align
+. font-size
+. text-shadow
+. margin-bottom
+. padding-bottom
+. border-bottom
+. height
+. object-fit
+. max-width
+. margin
+. padding
+. width
+. border-radius
+. padding-top
+. opacity
+. border
+. position
+. left
+. bottom
+
+| DESCRIPTION |
+While creating this website, i explored the Bootstrap documentation and used: Navbar, Footer and Carrousel. Also created a function in JS to blink a div.
