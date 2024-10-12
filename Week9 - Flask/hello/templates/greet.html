@@ -1,0 +1,6 @@
+<!-- ALL JINJA TEMPLATES (using "layout.html")-->
+{% extends "layout.html" %}
+
+{% block body %}
+    hello, {% if name %} {{ name }} {% else %}world{% endif %}      <!-- % IN JINJA -> PROGRAMMING | NO % -> INTERPOLATION -->
+{% endblock %}

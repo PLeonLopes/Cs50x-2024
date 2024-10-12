@@ -1,0 +1,38 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Summary
+{% endblock %}
+
+{% block main %}
+    <h2>Summary</h2><br>    
+    <!-- BOOTSTRAP TABLE -->
+    <table class="table table-bordered table-striped">
+        <thead class="thead-light">
+            <tr>
+                <th>Symbol</th>
+                <th>Shares</th>
+                <th>Price</th>
+                <th colspan="2">Total Value</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for stock in stocks %}
+                <tr>
+                    <td>{{ stock.symbol }}</td>
+                    <td>{{ stock.total_shares }}</td>
+                    <td>{{ stock.price }}</td>
+                    <td colspan="2">{{ (stock.price * stock.total_shares)|usd }}</td>
+                </tr>
+            {% endfor %}
+            <tr>
+                <td colspan="4" align="right">Cash</td>
+                <td>{{ cash|usd }}</td>
+            </tr>
+            <tr>
+                <td colspan="4" align="right">Total Value</td>
+                <td>{{ total_value|usd }}</td>
+            </tr>
+        </tbody>
+    </table>
+{% endblock %}
