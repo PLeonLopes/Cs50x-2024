@@ -6,3 +6,8 @@
 .vscode/c_cpp_properties.json
 .vscode/launch.json
 .vscode/settings.json
+
+# Python cache files
+__pycache__/
+*.py[cod]
+*.pyo
