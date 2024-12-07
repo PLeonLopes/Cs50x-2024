@@ -9,5 +9,6 @@
 
 # Python cache files
 __pycache__/
+flask_session/
 *.py[cod]
 *.pyo
