@@ -1,0 +1,29 @@
+{% extends "layout.html" %}
+
+{% block title %}Log In{% endblock %}
+
+{% block main %}
+<div class="container d-flex justify-content-center align-items-center mt-5">
+    <main class="form-signin w-100" style="max-width: 380px;">
+        <h2 class="h3 mb-3 fw-normal text-center">LOGIN</h2>
+        {% if error %}
+        <div class="alert alert-danger alert-dismissible fade show" role="alert">
+            {{ error }}
+            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+        </div>
+        {% endif %}
+
+        <form action="/login" method="post">
+            <div class="form-floating mb-3">
+                <input autocomplete="off" autofocus type="text" class="form-control" id="username" name="username" placeholder="Username" type="text">
+                <label for="floatingUsername">Username</label>
+            </div>
+            <div class="form-floating mb-3">
+                <input type="password" class="form-control" id="password" name="password" placeholder="Password" required>
+                <label for="floatingPassword">Password</label>
+            </div>
+            <button class="btn btn-primary w-100 py-2" type="submit">Log In</button>
+        </form>
+    </main>
+</div>
+{% endblock %}

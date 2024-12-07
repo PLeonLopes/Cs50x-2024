@@ -1,0 +1,45 @@
+{% extends "layout.html" %}
+
+{% block title %}Loan History{% endblock %}
+
+{% block main %}
+    <div class="container mt-4">
+        <h1 class="mb-4">Loan Attempts History</h1>
+        {% if history %}
+            <div class="table-responsive">
+                <table class="table table-bordered table-striped table-hover">
+                    <thead class="table-dark">
+                        <tr>
+                            <th scope="col">Client Name</th>
+                            <th scope="col">Loan Amount</th>
+                            <th scope="col">Interest Rate</th>
+                            <th scope="col">Credit Score</th>
+                            <th scope="col">Result</th>
+                            <th scope="col">Date</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        {% for entry in history %}
+                            <tr>
+                                <td>{{ entry[0] }}</td>
+                                <td>${{ entry[1] }}</td>
+                                <td>{{ entry[2] }}%</td>
+                                <td>{{ entry[3] }}</td>
+                                <td>
+                                    <span class="badge {{ 'bg-success' if entry[4] == 'Loan Approved!' else 'bg-danger' }}">
+                                        {{ entry[4] }}
+                                    </span>
+                                </td>
+                                <td>{{ entry[5] }}</td>
+                            </tr>
+                        {% endfor %}
+                    </tbody>
+                </table>
+            </div>
+        {% else %}
+            <div class="alert alert-info" role="alert">
+                No loan attempts found.
+            </div>
+        {% endif %}
+    </div>
+{% endblock %}

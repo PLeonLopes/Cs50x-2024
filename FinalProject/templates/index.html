@@ -1,0 +1,137 @@
+{% extends "layout.html" %}
+
+{% block title %}Bank Loan Analyzer{% endblock %}
+
+
+{% block main %}
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-md-8">
+                <div class="form-container">
+                    <h2 class="text-center mb-4">Loan Prediction Form</h2>
+                    <form action="/result" method="POST">
+                        <!-- Client's name -->
+                        <div class="row">
+                            <div class="mb-3 col-md-12">
+                                <label for="client_name" class="form-label">Client Name:</label>
+                                <input type="text" class="form-control" id="client_name" name="client_name" placeholder="Enter the client's name" required>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <!-- Age -->
+                            <div class="mb-3 col-md-6">
+                                <label for="person_age" class="form-label">Age</label>
+                                <input type="number" class="form-control" id="person_age" name="person_age" placeholder="Enter your age" min="18" required>
+                            </div>
+                            <!-- Monthly Income -->
+                            <div class="mb-3 col-md-6">
+                                <label for="person_income" class="form-label">Monthly Income</label>
+                                <input type="number" class="form-control" id="person_income" name="person_income" placeholder="Enter your monthly income" min="0" required>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <!-- Loan Amount -->
+                            <div class="mb-3 col-md-6">
+                                <label for="loan_amnt" class="form-label">Loan Amount</label>
+                                <input type="number" class="form-control" id="loan_amnt" name="loan_amnt" placeholder="Enter loan amount" min="0" required>
+                                <i><small>Possible values: 500 - 35000</small></i>
+                            </div>
+                            <!--  Interest Rate (%) -->
+                            <div class="mb-3 col-md-6">
+                                <label for="loan_int_rate" class="form-label"> Interest Rate (%)</label>
+                                <input type="number" step="0.01" class="form-control" id="loan_int_rate" name="loan_int_rate" placeholder="Enter interest rate" min="0" required>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <!-- Credit Score -->
+                            <div class="mb-3 col-md-6">
+                                <label for="credit_score" class="form-label">Credit Score</label>
+                                <input type="number" step="1" class="form-control" id="credit_score" name="credit_score" placeholder="Enter your credit score" min="0" required>
+                                <i><small>Possible values: 390 - 850</small></i>
+                            </div>
+                            <!-- Gender  -->
+                            <div class="mb-3 col-md-6">
+                                <label class="form-label">Gender</label>
+                                <select class="form-select" name="person_gender" required>
+                                    <option value="" selected disabled>Select...</option>
+                                    <option value="Masculino">Male</option>
+                                    <option value="Feminino">Female</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <!-- Education Level -->
+                            <div class="mb-3 col-md-6">
+                                <label class="form-label">Education Level</label>
+                                <select class="form-select" name="person_education" required>
+                                    <option value="" selected disabled>Select...</option>
+                                    <option value="High School">High School</option>
+                                    <option value="Associate">Associate</option>
+                                    <option value="Bachelors">Bachelors</option>
+                                    <option value="Master">Master</option>
+                                    <option value="Doctorate">Doctorate</option>
+                                </select>
+                            </div>
+                            <!-- Home Ownership -->
+                            <div class="mb-3 col-md-6">
+                                <label class="form-label">Home Ownership</label>
+                                <select class="form-select" name="person_home_ownership" required>
+                                    <option value="" selected disabled>Select...</option>
+                                    <option value="RENT">Rent</option>
+                                    <option value="MORTGAGE">Mortgage</option>
+                                    <option value="OWN">Own</option>
+                                    <option value="OTHER">Other</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <!-- Loan Purpose -->
+                            <div class="mb-3 col-md-6">
+                                <label class="form-label">Loan Purpose</label>
+                                <select class="form-select" name="loan_intent" required>
+                                    <option value="" selected disabled>Select...</option>
+                                    <option value="EDUCATION">Education</option>
+                                    <option value="MEDICAL">Medical</option>
+                                    <option value="VENTURE">Business</option>
+                                    <option value="PERSONAL">Personal</option>
+                                    <option value="DEBTCONSOLIDATION">Debt Consolidation</option>
+                                </select>
+                            </div>
+                            <!-- Work Experience -->
+                            <div class="mb-3 col-md-6">
+                                <label for="person_emp_exp" class="form-label">Work Experience (Years)</label>
+                                <input type="number" class="form-control" id="person_emp_exp" name="person_emp_exp" placeholder="Enter years of experience" min="0" required>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <!-- Income Percentage for Loan -->
+                            <div class="mb-3 col-md-6">
+                                <label for="loan_percent_income" class="form-label">Income Percentage for Loan</label>
+                                <input type="number" step="0.01" class="form-control" id="loan_percent_income" name="loan_percent_income" placeholder="Enter income percentage" min="0" required>
+                            </div>
+                            <!-- Credit History -->
+                            <div class="mb-3 col-md-6">
+                                <label for="cb_person_cred_hist_length" class="form-label">Credit History (Years)</label>
+                                <input type="number" class="form-control" id="cb_person_cred_hist_length" name="cb_person_cred_hist_length" placeholder="Enter years of credit history" min="0"
+                                    required>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <!-- Loan Defaults -->
+                            <div class="mb-3 col-md-12">
+                                <label class="form-label">Has there been any Defaults?</label>
+                                <select class="form-select" name="previous_loan_defaults_on_file" required>
+                                    <option value="" selected disabled>Select...</option>
+                                    <option value="0">No</option>
+                                    <option value="1">Yes</option>
+                                </select>
+                            </div>
+                        </div>
+                        <button type="submit" class="btn btn-custom w-100">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+{% endblock %}
