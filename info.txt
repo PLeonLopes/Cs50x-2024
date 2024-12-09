@@ -1,0 +1,148 @@
+| Pedro Nícollas Pereira Leon Lopes |
+|           CS50x - 2024            |
+
++-----------------------------------------------------------------------------+
+|									                                          |
+|Week 0 - Scratch							                                  |
+|									                                          |
+|Lecture 0: https://www.youtube.com/watch?v=3LPJfIKxwWc&t=16s&ab_channel=CS50 |
+|Project COOKIE EATER: https://scratch.mit.edu/projects/965065754/            |
++-----------------------------------------------------------------------------+
+
++-----------------------------------------------------------------------------------------------+
+|									       			                                            |
+|Week 1 - C							       	       			                                    |
+|									       			                                            |
+|Lecture 1: https://www.youtube.com/watch?v=cwtpLIWylAw&t=130s&ab_channel=CS50  		        |
+|Project1 (Hello, me) : https://submit.cs50.io/users/PLeonLopes/cs50/problems/2024/x/me     	|
+|Project2 (Mario More): https://submit.cs50.io/users/PLeonLopes/cs50/problems/2024/x/mario/more |
+|Project3 (Cash): https://submit.cs50.io/users/PLeonLopes/cs50/problems/2024/x/cash 		    |
++-----------------------------------------------------------------------------------------------+
+
++-------------------------------------------------------------------------------------------------+
+|												                                                  |
+|Week 2 - Arrays							       			                                      |
+|									       			                                              |
+|Lecture 2: https://www.youtube.com/watch?v=4vU4aEFmTSo&ab_channel=CS50		 		              |
+|Project1 (Scrabble): https://submit.cs50.io/users/PLeonLopes/cs50/problems/2024/x/scrabble	      |
+|Project2 (Readability): https://submit.cs50.io/users/PLeonLopes/cs50/problems/2024/x/readability |
+|Project3 (Caesar): https://submit.cs50.io/users/PLeonLopes/cs50/problems/2024/x/caesar		      |
++-------------------------------------------------------------------------------------------------+
+
++---------------------------------------------------------------------------------------------+
+|											                                                  |
+|Week 3 - Algorithms							       		                                  |
+|									       		                                              |
+|Lecture 3: https://www.youtube.com/watch?v=jZzyERW7h1A&ab_channel=CS50	 		              |
+|Project1 (Sort): https://submit.cs50.io/users/PLeonLopes/cs50/problems/2024/x/sort	          |
+|Project2 (Plurality): https://submit.cs50.io/users/PLeonLopes/cs50/problems/2024/x/plurality |
+|Project3.1 (Runoff): https://submit.cs50.io/users/PLeonLopes/cs50/problems/2024/x/runoff     |
+|Project3.2 (Tideman): https://submit.cs50.io/users/PLeonLopes/cs50/problems/2024/x/tideman   |
++---------------------------------------------------------------------------------------------+
+
++---------------------------------------------------------------------------------------------------+
+|												                                                    |
+|Week 4 - Memory							       			                                        |
+|									       			                                                |
+|Lecture 4: https://www.youtube.com/watch?v=F9-yqoS7b8w&ab_channel=CS50	 		 	                |
+|Project1 (Volume): https://submit.cs50.io/users/PLeonLopes/cs50/problems/2024/x/volume		        |
+|Project2.1 (Filter-less): https://submit.cs50.io/users/PLeonLopes/cs50/problems/2024/x/filter/less |
+|Project2.2 (Filter-more): https://submit.cs50.io/users/PLeonLopes/cs50/problems/2024/x/filter/more |
+|Project3 (Recover): https://submit.cs50.io/users/PLeonLopes/cs50/problems/2024/x/recover	        |
++---------------------------------------------------------------------------------------------------+
+
++-------------------------------------------------------------------------------------------------+
+|												                                                  |
+|Week 5 - Data Structures						       			                                  |
+|									       			                                              |
+|Lecture 5: https://www.youtube.com/watch?v=0euvEdPwQnQ&ab_channel=CS50 		 	              |
+|Project1 (Inheritance): https://submit.cs50.io/users/PLeonLopes/cs50/problems/2024/x/inheritance |
+|Project2 (Speller): https://submit.cs50.io/users/PLeonLopes/cs50/problems/2024/x/speller	      |
++-------------------------------------------------------------------------------------------------+
+
++-------------------------------------------------------------------------------------------------+
+|												                                                  |
+|Week 5 - Data Structures						       			                                  |
+|									       			                                              |
+|Lecture 5: https://www.youtube.com/watch?v=0euvEdPwQnQ&ab_channel=CS50 		 	              |
+|Project1 (Inheritance): https://submit.cs50.io/users/PLeonLopes/cs50/problems/2024/x/inheritance |
+|Project2 (Speller): https://submit.cs50.io/users/PLeonLopes/cs50/problems/2024/x/speller	      |
+|	 									 		                                                  |
++-------------------------------------------------------------------------------------------------+
+
++-------------------------------------------------------------------------------------------------------------------------+
+|												 			                                                              |
+|Week 6 - Python						       			 				                                                  |
+|									       			 			                                                          |
+|Lecture 6: https://www.youtube.com/watch?v=EHi0RDZ31VA&ab_channel=CS50 		 	 			                          |
+|Project1 (Sentimental/Hello): https://submit.cs50.io/users/PLeonLopes/cs50/problems/2024/x/sentimental/hello		      |
+|Project2.1 (Sentimental/mario-less): https://submit.cs50.io/users/PLeonLopes/cs50/problems/2024/x/sentimental/mario/less |
+|Project2.2 (Sentimental/mario-more): https://submit.cs50.io/users/PLeonLopes/cs50/problems/2024/x/sentimental/mario/more |
+|Project3 (Sentimental/Cash): https://submit.cs50.io/users/PLeonLopes/cs50/problems/2024/x/sentimental/cash		          |
+|Project4 (Sentimental/Readability): https://submit.cs50.io/users/PLeonLopes/cs50/problems/2024/x/sentimental/readability |
+|Project5 (DNA): https://submit.cs50.io/users/PLeonLopes/cs50/problems/2024/x/dna					                      |
++-------------------------------------------------------------------------------------------------------------------------+
+
++-------------------------------------------------------------------------+
+|									                                      |
+|Week 6.5 - Artificial Intelligence					                      |
+|									                                      |
+|Lecture 6.5: https://www.youtube.com/watch?v=6X58aP7yXC4&ab_channel=CS50 |
++-------------------------------------------------------------------------+
+
++----------------------------------------------------------------------------------------------+
+|											                                                   |
+|Week 7 - SQL						       			 	                                       |
+|									       		                                               |
+|Lecture 7: https://www.youtube.com/watch?v=1RCMYG8RUSE&t=118s&ab_channel=CS50 		           |
+|Project1 (Songs): https://submit.cs50.io/users/PLeonLopes/cs50/problems/2024/x/songs 	       |
+|Project2 (Movies): https://submit.cs50.io/users/PLeonLopes/cs50/problems/2024/x/movies	       |
+|Projet3 (Fiftyville): https://submit.cs50.io/users/PLeonLopes/cs50/problems/2024/x/fiftyville |
++----------------------------------------------------------------------------------------------+
+
++-------------------------------------------------------------------------------------------+
+|											                                                |
+|Week 8 - HTML, CSS, Javascript				       			 	                            |
+|									       		                                            |
+|Lecture 8: https://www.youtube.com/watch?v=ciz2UaifaNM&ab_channel=CS50			            |
+|Project1 (Trivia): https://submit.cs50.io/users/PLeonLopes/cs50/problems/2024/x/trivia	    |
+|Project2 (Homepage): https://submit.cs50.io/users/PLeonLopes/cs50/problems/2024/x/homepage |
++-------------------------------------------------------------------------------------------+
+
++---------------------------------------------------------------------------------------------+
+|											                                                  |
+|Week 9 - Flask						       			 	                                      |
+|									       		                                              |
+|Lecture 9: https://www.youtube.com/watch?v=oVA0fD13NGI&ab_channel=CS50			              |
+|Project1 (Birthdays): https://submit.cs50.io/users/PLeonLopes/cs50/problems/2024/x/birthdays |
+|Project2 (Finance): https://submit.cs50.io/users/PLeonLopes/cs50/problems/2024/x/finance     |
++---------------------------------------------------------------------------------------------+
+
++--------------------------------------------------------------------------------+
+|												 				                 |
+|Week 10 - Cybersecurity													     |
+|																                 |
+|Lecture 10: https://www.youtube.com/watch?v=EKof-cJiTG8&t=4574s&ab_channel=CS50 |
++--------------------------------------------------------------------------------+
+
++---------------------------------------------------------------------------------------------------------+
+|                                              FINAL PROJECT                                              |
++---------------------------------------------------------------------------------------------------------+
+|                                                                                                         |
+|Final Project (Bank Loan Analyzer): https://submit.cs50.io/users/PLeonLopes/cs50/problems/2024/x/project |
+|                                                                                                         |
+|Repository Link: https://github.com/PLeonLopes/Cs50x-2024/tree/main/FinalProject                         |
++---------------------------------------------------------------------------------------------------------+
+
++--------------------------------------------------------------+
+|                         USEFUL LINKS                         |
++--------------------------------------------------------------+
+|                                                              |
+|Personal Repository: https://github.com/PLeonLopes/Cs50x-2024 |
+|                                                              |
+|Gradebook: https://cs50.me/cs50x                              |
+|                                                              |
+|Submissions: https://submit.cs50.io/users/PLeonLopes          |
+|                                                              |
+|Docs: https://cs50.readthedocs.io/                            |
++--------------------------------------------------------------+
