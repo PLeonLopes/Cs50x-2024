@@ -145,4 +145,6 @@
 |Submissions: https://submit.cs50.io/users/PLeonLopes          |
 |                                                              |
 |Docs: https://cs50.readthedocs.io/                            |
+|                                                              |
+|Online IDE: https://cs50.dev/                                 |
 +--------------------------------------------------------------+
